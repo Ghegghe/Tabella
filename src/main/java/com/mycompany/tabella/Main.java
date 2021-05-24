@@ -17,7 +17,7 @@ public class Main {
             tabella[i/colonne][i%colonne]=String.valueOf(i);
         System.out.println(Tabella.outTabella(tabella, righe, colonne));
         Tabella tab=new Tabella(colonne);
-        tab.setTitle(tabella[0]); 
+        tab.setTitle(tabella[0]);
         for(int i=0; i<righe; i++) {
             tab.addRow(tabella[i]);
         }
